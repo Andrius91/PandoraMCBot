@@ -1,0 +1,276 @@
+message: "&5&lPandoraBot &8» &eLogró comprender a &b%player%&e y le envió una respuesta &8(%response%)"
+questions:
+  GLOBAL:
+    como-comprar:
+      aliases:
+        - "como compro rango"
+        - "quiero comprar rango"
+        - "cual es la tienda del server"
+        - "donde compro rango"
+        - "comprar rango"
+        - "adquirir rango"
+        - "comprar vip"
+        - "compro vip"
+        - "tienda del servidor"
+        - "cual es la tienda"
+        - "compro rango"
+        - "compro feryx"
+        - "compro supremo"
+        - "compro dios"
+        - "compro vip"
+      response:
+        - "&5&lPandora &8» &fPuedes comprar rango en nuestra tienda: &bhttps://tienda.feryx.net/"
+    cual-discord:
+      aliases:
+        - "cual es el discord"
+        - "link del discord"
+        - "link de discord"
+        - "uno al discord"
+        - "es el discord"
+        - "discord del sv"
+        - "discord del servidor"
+      response:
+        - "&5&lPandora &8» &fLink de nuestro discord: &bdiscord.feryx.net"
+    conseguir-llaves:
+      aliases:
+        - "como consigo llaves"
+        - "consigo llaves"
+        - "consigo cajas"
+        - "conseguir llaves"
+        - "conseguir cajas"
+      response:
+        - "&5&lPandora &8» &fPuedes conseguir llaves &aVotando&f por el servidor o comprandolas en nuestra tienda: &btienda.feryx.net"
+  survival:
+    pico-carbon:
+      aliases:
+        - "me da carbon"
+        - "mis diamantes se convierten en carbon"
+        - "minerales se convierten en carbon"
+      response:
+        - "&5&lPandora &8» &fSi tus minerales se convierten en carbón significa que se te ha detectado el uso de &cX-RAY&f."
+    hay-hacker:
+      aliases:
+        - "tiene hacks"
+        - "usa hacks"
+        - "es hacker"
+        - "me estafo"
+        - "me estafaron"
+      response:
+        - "&5&lPandora &8» &fSi necesitas ayuda puedes hacer un ticket en nuestro discord."
+    como-doy-permiso:
+      aliases:
+        - "agrego a mi proteccion"
+        - "comparto mi casa"
+        - "doy permisos en mi prote"
+      response:
+        - "&5&lPandora &8» &fPara darle permiso a alguien en tu protección usa &a/ps add (nick)."
+    como-elimino-permiso:
+      aliases:
+        - "elimino a mi proteccion"
+        - "quitar permiso"
+        - "borro a alguien de mi prote"
+        - "borrar a alguien de mi prote"
+      response:
+        - "&5&lPandora &8» &fPara quitarte permiso a alguien en tu protección usa &a/ps remove (nick)."
+    comprar-protecciones:
+      aliases:
+        - "adquiero protecciones"
+        - "como protejo mi casa"
+        - "como consigo mas protecciones"
+        - "quiero protecciones"
+        - "compro protecciones"
+        - "compro mas proteccion"
+        - "comprar proteccion"
+        - "mas protecciones"
+        - "mas protecciones"
+      response:
+        - "&5&lPandora &8» &fPuedes adquirir más protecciones usando el comando &b/proteccion"
+    como-teletransportarse:
+      aliases:
+        - "como hago tp a mi amigo"
+        - "como hago tp"
+        - "como me teletransporto"
+        - "como voy donde mi amigo"
+        - "como me teletransporto"
+        - "teletransportarme a alguien"
+        - "teletransportarme a"
+        - "tpearme a"
+        - "tepearme a"
+      response:
+        - "&5&lPandora &8» &fPara teletransportarte a alguien usa &a/tpa (nick)"
+    como-crear-clan:
+      aliases:
+        - "como creo clan"
+        - "crear clan"
+        - "hacer mi clan"
+        - "crear clan"
+        - "crear mi clan"
+        - "crear un equipo"
+        - "crear un clan"
+      response:
+        - "&5&lPandora &8» &fPara crear tu clan usa &a/clan create (nombre del clan)"
+    como-invitar-clan:
+      aliases:
+        - "amigo a mi clan"
+        - "como invito"
+        - "mi amigo no se puede unir a mi clan"
+        - "invitar a clan"
+        - "invitar a un clan"
+        - "invitar a mi clan"
+      response:
+        - "&5&lPandora &8» &fPara invitar a alguien a tu clan usa &a/clan invite (nick)"
+    como-sacar-clan:
+      aliases:
+        - "como saco a alguien de mi clan"
+        - "como voto a alguien de mi clan"
+        - "saco a alguien de mi clan"
+        - "boto a alguien de mi clan"
+        - "expulso a alguien demi clan"
+        - "remover a alguien de mi clan"
+      response:
+        - "&5&lPandora &8» &fPara eliminar a alguien a tu clan usa &a/clan kick (nick)"
+    como-salir-clan:
+      aliases:
+        - "como salir de mi clan"
+        - "salir de un clan"
+        - "abandono mi clan"
+        - "abandono un clan"
+      response:
+        - "&5&lPandora &8» &fPara salir de un clan usa &a/clan leave"
+    como-eliminar-clan:
+      aliases:
+        - "como eliminar mi clan"
+        - "elimino mi clan"
+        - "borro mi clan"
+      response:
+        - "&5&lPandora &8» &fPara borrar tu clan usa &a/clan disband"
+    como-ir-end:
+      aliases:
+        - "como voy al end"
+        - "no puedo ir al end"
+        - "no me deja ir al end"
+        - "quiero ir al end"
+      response:
+        - "&5&lPandora &8» &fPuedes ir al end usando &a/warp end"
+    como-ir-nether:
+      aliases:
+        - "como voy al nether"
+        - "no puedo ir al nether"
+        - "no me deja ir al nether"
+        - "quiero ir al nether"
+        - "como voy al infierno"
+        - "puedo ir al nether"
+      response:
+        - "&5&lPandora &8» &fPuedes ir al nether usando &a/warp nether"
+    como-voy-tienda:
+      aliases:
+        - "como voy a la tienda"
+        - "ir a la tienda"
+      response:
+        - "&5&lPandora &8» &fPuedes ir a la tienda con &a/warp tienda"
+    no-picar-poner-bloques:
+      aliases:
+        - "no puedo poner bloques"
+        - "no puedo picar"
+        - "no puedo colocar bloques"
+        - "no me deja poner bloques"
+        - "no me deja colocar bloques"
+        - "no puedo picar"
+        - "no me deja picar"
+        - "no puedo romper"
+      response:
+        - "&5&lPandora &8» &e%player%&f, si no puedes colocar/romper bloques probablemente estás en una zona protegida, intenta alejarte un poco."
+    como-gano-dinero:
+      aliases:
+        - "como gano dinero"
+        - "como consigo dinero"
+        - "puedo conseguir dinero"
+        - "puedo ganar dinero"
+        - "ganar dinero"
+        - "conseguir dinero"
+        - "consiguo"
+        - "gano dinero"
+      response:
+        - "&5&lPandora &8» &fPuedes ganar dinero haciendo misiones con &a/q&f o vendiendo items en &a/warp tienda&f."
+    como-vendo:
+      aliases:
+        - "como vendo items"
+        - "vender items"
+        - "como vendo"
+        - "quiero vender"
+      response:
+        - "&5&lPandora &8» &fPuedes vender items en &a/warp tienda"
+    dar-permisos:
+      aliases:
+        - "como doy permisos"
+        - "doy permisos en"
+        - "doy permiso en"
+        - "doy permiso a mi amigo"
+        - "agrego a alguien a mi"
+        - "agrego a alguien ami"
+        - "agrego a alguien a mi prote"
+        - "dar permisos"
+        - "dar permiso"
+      response:
+        - "&5&lPandora &8» &fPara darle permiso a alguien en tu protección es &a/ps add (nick)."
+    como-cancelo-mision:
+      aliases:
+        - "cancelo una mision"
+        - "como cancelo mision"
+        - "como cancelo mi mision"
+        - "cancelar una mision"
+        - "cancelar mision"
+      response:
+        - "&5&lPandora &8» &fPara darle permiso a alguien en tu protección es &a/ps add (nick)."
+    como-borro-home:
+      aliases:
+        - "como borro mi home"
+        - "elimino mi home"
+        - "borro mi home"
+        - "borro mi /sethome"
+        - "elimino mi /home"
+        - "eliminar mi /home"
+        - "eliminar mi actual home"
+        - "eliminar actual /sethome"
+        - "eliminar actual /home"
+        - "eliminar mi casa"
+      response:
+        - "&5&lPandora &8» &fPara borrar tu home usa el comando &a/delhome home&f."
+    voto:
+      aliases:
+        - "como voto"
+        - "quiero votar"
+        - "no me deja votar"
+        - "vote y no me da"
+        - "vote y no me"
+        - "puedo votar"
+        - "mi voto"
+      response:
+        - "&5&lPandora &8» &fPara votar usa el comando &a/voto40&f, si ya votaste usa otra vez el comando para que te entregue tus recompensas. &eNOTA: Si eres de bedrock no te olvides colocar el BD_ en tu nick."
+    como-creo-home:
+      aliases:
+        - "como guardo mi home"
+        - "guardo mi home"
+        - "guardar mi home"
+        - "para que sirve /sethome"
+        - "como creo un home"
+        - "crear mi home"
+        - "guardo home"
+      response:
+        - "&5&lPandora &8» &fPara guardar tu casa usa &a/sethome&f."
+    tengo-un-corazon:
+      aliases:
+        - "tengo 1 corazon"
+        - "tengo 1 cora"
+        - "tengo 1 de vida"
+        - "tengo 1 vida"
+      response:
+        - "&5&lPandora &8» &fSi tienes entraste y solo tienes un corazon, no te alarmes es un bug visual que será arreglado proximamente, sigues teniendo tus diez corazones."
+  lobby:
+    ir-a-survival:
+      aliases:
+        - "como voy a survival"
+        - "como juego"
+        - "entro a survival"
+      response:
+        - "&5&lPandora &8» &fPuedes entrar a survival usando la brújula y apretando la primera cabeza"

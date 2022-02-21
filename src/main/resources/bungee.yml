@@ -1,0 +1,5 @@
+name: PandoraBot
+version: '${project.version}'
+author: Andrius91
+main: team.yogurt.pandorabotmc.PandoraBot
+description: A auto response plugin
